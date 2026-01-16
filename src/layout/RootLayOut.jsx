@@ -3,6 +3,7 @@ import { Outlet } from 'react-router';
 import Navbar from '../page/shared/navbar/Navbar';
 import Footer from '../page/footer/Footer';
 
+
 const RootLayOut = () => {
     return (
         <div>

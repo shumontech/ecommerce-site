@@ -5,12 +5,12 @@ import logo from '../../../assets/logo.png';
 const Navbar = () => {
 
     const navItems = <>
-         <li><NavLink to="/">Home</NavLink></li>
-         <li><NavLink to="/top rated">Top Rated</NavLink></li>
-         <li><NavLink to="/kids">Kids Wears</NavLink></li>
-         <li><NavLink to="/mens">Mens Wears</NavLink></li>
-         <li><NavLink to="/electronics">Electronics</NavLink></li>
-         <li><NavLink to="/trending">Trending Items</NavLink></li>
+         <li className='text-2xl text-[#e08e1a]'><NavLink to="/">Home</NavLink></li>
+         <li className='text-2xl text-[#e08e1a]'><NavLink to="/top rated">Top Rated</NavLink></li>
+         <li className='text-2xl text-[#e08e1a]'><NavLink to="/kids">Kids Wears</NavLink></li>
+         <li className='text-2xl text-[#e08e1a]'><NavLink to="/mens">Mens Wears</NavLink></li>
+         <li className='text-2xl text-[#e08e1a]'><NavLink to="/electronics">Electronics</NavLink></li>
+         <li className='text-2xl text-[#e08e1a]'><NavLink to="/trending">Trending Items</NavLink></li>
        
     </>;
     
